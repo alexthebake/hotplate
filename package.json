@@ -1,0 +1,36 @@
+{
+  "name": "hotplate",
+  "version": "0.0.1",
+  "description": "Some redux boilerplate to make your life easier.",
+  "main": "index.js",
+  "author": "Alexander Bake",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "jest --setupTestFrameworkScriptFile ./tests/__helpers/init.js"
+  },
+  "dependencies": {
+    "change-case": "^3.0.2",
+    "lodash": "^4.17.10",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.4.2",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "eslint": "^5.3.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "jest": "^23.4.2",
+    "prettier": "^1.14.2",
+    "redux-mock-store": "^1.5.3",
+    "sinon": "^6.1.4",
+    "sinon-chai": "^3.2.0",
+    "webpack": "^4.16.5"
+  }
+}
